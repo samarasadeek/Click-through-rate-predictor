@@ -39,7 +39,7 @@
 ## Remarks
 I have written the code shown in this repository for a client as part of Pivigo’s Science to Data Science bootcamp (S2DS; https://www.s2ds.org/) in March and April 2022. The approach to this project was formulated by a 4-member team which I was a part of.   
 The names of the advertising firm (who is also the copyright holder), the advertiser, and the product, as well as the place where the campaign was run are kept anonymous.
-Samara Sadeek, 16th May 2022
+<br> Samara Sadeek, 16th May 2022
 
 # Copyright
 Program to predict click through rate of an ad and allocate a bid weighting to inform bidding strategy for a programmatic advertising firm.
