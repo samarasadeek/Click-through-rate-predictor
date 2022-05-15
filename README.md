@@ -35,6 +35,17 @@
     - Time of day
     - Day of week
 
+**Files included**
+- Click_through_rate_prediction_model.ipynb : Jupyter notebook which contains all the code described above.
+
+**Packages used**
+- Pandas
+- Numpy 
+- Matplotlib
+- Seaborn
+- Scikit learn 
+- Imbalance learn
+- Pickle
 
 ## Remarks
 I have written the code shown in this repository for a client as part of Pivigo’s Science to Data Science bootcamp (S2DS; https://www.s2ds.org/) in March and April 2022. The approach to this project was formulated by a 4-member team which I was a part of.   
