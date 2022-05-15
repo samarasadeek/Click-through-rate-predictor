@@ -3,9 +3,9 @@
 ## Description
 
 **Goal**
-<br> In programmatic advertising, ad space purchasing is automated. In some instances, a real-time bidding takes place where the price of the ad space is determined by the outcome of an auction. Advertisers will make bids for the ad space, the highest bidder wins the auction and their ad would be loaded to the space. This model produces a bid multiplier (which sets the bid of a given ad space). The bid multiplier is determined by the click through rate predicted by the model. 
+<br> In programmatic advertising ad space purchasing is automated. In some instances, a real-time bidding takes place where the price of the ad space is determined by the outcome of an auction. Advertisers will make bids for the given ad space, the highest bidder wins the auction and their ad would be loaded to the space. In this project, a model was built to produce a bid multiplier (which sets the bid of a given ad space) which is determined by the click through rate predicted by the model. 
 
-<br> The aim of this model is therefore to correctly predicting whether or not an ad would have a high click through rate (CTR). A high CTR was defined here as >= 0.08 %. A bid multiplier is then assigned based on whether or not an ad is predicted to have a high CTR.
+<br> The aim of this model is therefore to correctly predict whether or not an ad would have a high click through rate (CTR). A high CTR was defined here as >= 0.08 %. A bid multiplier is then assigned based on whether or not an ad is predicted to have a high CTR.
 <br>
 
 **Classifier**
@@ -39,7 +39,7 @@
 ## Remarks
 I have written the code shown in this repository for a client as part of Pivigo’s Science to Data Science bootcamp (S2DS; https://www.s2ds.org/) in March and April 2022. The approach to this project was formulated by a 4-member team which I was a part of.   
 The names of the advertising firm (who is also the copyright holder), the advertiser, and the product, as well as the place where the campaign was run are kept anonymous.
-<br> Samara Sadeek, 17th May 2022
+<br> Samara Sadeek, 16th May 2022
 
 # Copyright
 Program to predict click through rate of an ad and allocate a bid weighting to inform bidding strategy for a programmatic advertising firm.
