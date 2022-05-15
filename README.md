@@ -20,7 +20,6 @@
 
 **Evaluation metric** 
 <br> The dataset was highly imbalanced with the majority (ca. over 90%) of the observations being in the low CTR class. Correctly predicting that an ad would have a high CTR is more valuable than correctly predicting an ad would have a low CTR. In other words, the cost associated with a false negative is greater than the cost associated with a false positive. 
-
 <br> Accordingly, accuracy was not a useful metric, but instead  Recall of the high CTR class was the key metric which the classifier was evaluated on. It should be stated that a high Recall (80 %), came at the expense of a low precision (41 %). 
 
 
