@@ -20,11 +20,9 @@
 
 **Evaluation metric** 
 <br> The dataset was highly imbalanced with the majority (ca. over 90%) of the observations being in the low CTR class. Correctly predicting that an ad would have a high CTR is more valuable than correctly predicting an ad would have a low CTR. In other words, the cost associated with a false negative is greater than the cost associated with a false positive. 
-$$C_{FN} >>  C_{FP}$$
+
 <br> Accordingly, accuracy was not a useful metric, but instead  Recall of the high CTR class was the key metric which the classifier was evaluated on. It should be stated that a high Recall (80 %), came at the expense of a low precision (41 %). 
 
-$$Recall = \frac{TP}{TP + FN}$$   
-$$Precision = \frac{TP}{TP + FP}$$
 
 **Cost-sensitive learning**
 <br> A weighted RandomForest was used due to its ease of implementation and since promising results of such prediction models for rare event detection have been demonstrated [here](https://www.sciencedirect.com/science/article/pii/S235291482100174X#bib40). To produce the weightings, a cost-sensitive learning approach was taken. This strategy ensures that the classifier does not consider all errors to be equal. For this classifier, different costs were assigned to false negative and false positive events, which were used to produce a cost factor. The cost factor was then used along with the number of observations in both classes to estimate class weightings to be assigned to the classifier. The methodology followed was taken from [here](https://link.springer.com/article/10.1007/s10994-016-5572-x#citeas) (equation 2). Other classifiers should be attempted which employs the cost-sensitive learning e.g. calibrated AdaBoost.
